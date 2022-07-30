@@ -1,0 +1,32 @@
+.cadastro {
+  width: 100%;
+}
+
+.barra-de-progresso {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+.barra-de-progresso li {
+  list-style: none;
+}
+
+.barra-de-progresso li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  background: black;
+  color: white;
+
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto 0.8em;
+
+  text-align: center;
+}
+
+

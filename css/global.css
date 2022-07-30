@@ -1,0 +1,119 @@
+:root{
+    --Azul-do-fundo-menu:#21325b;
+    --Background:#fff ;
+    --Cor-titulos:#1e2022;
+    --Cor-subtitulos:#677788;
+    --Cor-botão-compra:#377dff;
+    --Cor-links-menu:rgba(255,255,255,.55);
+    --font-family: Inter,sans-serif;
+    --font-size: 1rem;
+    --h1: 2.5rem
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+
+}
+
+
+/*-----------------------------------MENU-----------------------------------*/
+
+/*-----------------------------------Container-----------------------------------*/
+.container{
+    margin: 2rem;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+/*-----------------------Textos-----------------------*/
+
+h1{
+    font-size: var(--h1);
+    text-align: center!important;
+    font-family: var(--font-family);
+    margin: 0.5rem 0;
+}
+
+p{
+    font-size: var(--font-size);
+    text-align: center!important;
+    font-family: var(--font-family);
+    color: var(--Cor-subtitulos);
+}
+
+
+/*-----------------------Cards-----------------------*/
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 22.3rem;
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: -10px 0px 13px -7px rgba(206,206,206,0.25), 10px 0px 13px -7px rgba(206,206,206,0.25), 1px 4px 10px -2px rgba(206,206,206,0.25);
+}
+
+.card-titulo{
+    display: flex;
+    justify-content:flex-start;
+    align-items: baseline;
+    flex-direction: row;
+}
+.cifrao{
+    position: absolute;
+    margin-left: -1rem;
+    font-size: 1rem;
+}
+
+.card-subtitulo{
+    margin: 0.5rem 0;
+}
+
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+.card-info  li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0.3rem 0;
+}
+
+.card-info  li p {
+    margin-left: 1rem;
+}
+
+.btn-plano{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--Background);
+    background-color: #377dff;
+    text-align: center;
+    vertical-align: middle;
+    border: 0.0625rem solid transparent;
+    padding: 0.6125rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.3125rem;
+    transition: all .2s ease-in-out;
+    width: 100%;
+}
